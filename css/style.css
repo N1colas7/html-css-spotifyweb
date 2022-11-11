@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* to insert */
+.flex{
+    display: flex;
+}
+/* container */
+.container{
+    width: 100%;
+    height: calc( 100vh - 160px );
+}
+/* sidebar */
+.sidebar{
+    width: 200px;
+    height: calc( 100vh - 160px );
+    background-color: aqua;
+}
+/* container-topbar-mainpage */
+.container-topbar-mainpage{
+   width: 100%;
+   height: 100%; 
+}
+/* topbar */
+.topbar{
+    width: 100%;
+    height: 100px;
+    background-color: blue; 
+}
+/* mainpage */
+.mainpage{
+    width: 100%;
+    height: calc( 100vh - 160px - 100px );
+    background-color: yellow;
+}
+/* footer */
+footer{
+    width: 100%;
+    height: 160px;
+    background-color: rgb(42, 165, 69);
+}
