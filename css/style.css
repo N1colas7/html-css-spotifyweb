@@ -411,7 +411,7 @@ footer{
     }
 }
 /* responsive s */
-@media screen and (min-width:768px) {
+@media screen and (max-width:768px) {
     .title-topbar{
         font-size: 12px;
         padding: 10px 30px;
@@ -424,3 +424,28 @@ footer{
     }
 }
 /* responsive xs */
+@media screen and (min-width:450px){
+    .title-topbar{
+       margin-left: 53%;
+    }
+    .list-title-mainpage li{
+        width: 24%;
+        font-size: 10px;        
+    }
+    .list-title-mainpage{
+        justify-content: space-around;
+    }
+    .box-song-img{
+        width: 129px;
+    }
+    .box-song-img img{
+        max-width: 110px;
+    }
+    .logo{
+        display: none;
+    }
+    .logo-little{
+        display: block;
+        width: 30%;
+    }
+}
