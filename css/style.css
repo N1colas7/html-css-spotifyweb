@@ -375,10 +375,30 @@ footer{
 @media screen and (min-width:1200px){
     .box-song-img img{
         max-width: 135px;
-        background-color: yellow;
     }
 }
 /* responsive md */
 @media screen and (min-width:992px) {
-    
+    .footer{
+        width: auto;
+    }
+    .topbar{
+        width: 100%;
+    }
+    .list-title-mainpage{
+        flex-wrap: wrap;
+       
+    }
+    .margin-li{
+        margin-left: 35%;
+    }
+    .box-song-img img {
+        max-width: 160px;
+    }
+    .box-song-container{
+        flex-wrap: wrap;
+    }
+    .text-song h4{
+        max-width: 87px;
+    }
 }
