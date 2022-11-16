@@ -424,7 +424,7 @@ footer{
     }
 }
 /* responsive xs */
-@media screen and (min-width:450px){
+@media screen and (max-width:450px){
     .title-topbar{
        margin-left: 53%;
     }
@@ -447,5 +447,24 @@ footer{
     .logo-little{
         display: block;
         width: 30%;
+        height: 30%;
+    }
+    .text-image{
+        display: none;
+    }
+    .h2-side{
+        display: none;
+    }
+    .crea-playlist{
+        display: none;
+    }
+    .list-playlist{
+        display: none;
+    }
+    .logo-sidebar{
+        height: 5%;
+    }
+    .container-foot-bar{
+       flex-direction: column;
     }
 }
